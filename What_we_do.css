@@ -30,4 +30,39 @@
   .box:hover{
     cursor: pointer;
   }
+
+  /* Responsive code */
+@media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    .box {
+      width: 70%;
+      height: 25vh;
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    p {
+      font-size: medium;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    .box {
+      width: 90%;
+      height: 30vh;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    p {
+      font-size: small;
+    }
+  }
   

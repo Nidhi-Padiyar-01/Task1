@@ -113,9 +113,43 @@ body {
   display: flex;
   background-color: black;
   color: aliceblue;
-  height: 10vh;
+  height: 4vh;
+  padding: 20px;
+ 
 }
-.footer li{
+.footer p{
+  padding-left: 500px;
+}
+.footer a{
   list-style: none;
-  margin: auto;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .navbar li a {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .navbar img {
+    height: 40px;
+    padding: 5px;
+  }
+
+  .home pre {
+    font-size: 30px;
+  }
+
+  .home p {
+    font-size: 18px;
+  }
+
+  .home2 button {
+    width: 90px;
+    height: 35px;
+  }
+
+  .footer p {
+    padding-left: 10px;
+  }
 }
