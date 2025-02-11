@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  height: 12vh;
+}
+.navbar li{
+  list-style: none;
+  display: inline;
+}
+.navbar li a{
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 30px;
+}
+.navbar li a:hover{
+  color: rgb(55, 139, 236);
+}
+
+.navbar img{
+  border-radius: 90px;
+  height: 60px;
+  padding: 10px;
+}
+.dropbtn{
+  text-decoration: none;
+  color: aliceblue;
+}
+.dropbtn:hover{
+  color: rgb(55, 139, 236);
+
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  padding: 30px;
+  font-size: 20px;
+  color: aliceblue;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 20px;
+  border-radius: 5%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: rgb(96, 156, 225);
+  color: rgb(248, 252, 255);
+}
+
+.home{
+  background-image: url("animal2.jpeg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-blend-mode: lighten;
+}
+.home pre{
+  font-size: 60px;
+  color: rgb(9, 9, 9);
+  /* position: absolute;
+  transform: translate(50%,50%); */
+}
+.home p{
+  font-size: 25px;
+  padding: 50px;
+}
+.home2{
+ background-color: rgba(240, 248, 255, 0.361);
+ height: 100vh;
+ font-weight: bolder;
+}
+.home2 button{
+  margin: 50px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer; 
+  border: none;
+  border-radius: 30px;
+}
+.home2 button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.551);
+}
+.footer{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  height: 10vh;
+}
+.footer li{
+  list-style: none;
+  margin: auto;
+}
